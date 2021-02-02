@@ -6,17 +6,21 @@ body{
     font-family: arial; font-size: 15px; line-height:30px;
 }
 .nav{
-    display: inline-block;
+    /* display: inline-block; */
     width: 100%;
     background-color: chartreuse;
+    position: absolute;
+    display: flex;
 }
 .menu li{
     float: right;
     padding: 10px;
-
+    margin-left: 20px;
+   
 }
 .menu{
     list-style: none;
+   
   
 }
 .menu li a{
@@ -69,5 +73,66 @@ span{
     border: 2px solid red;
     margin: 1px;
     width: 32%;
+    text-align: center;
+   
+}
+.d2{
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
     
+}
+ .d3:hover{
+    background-color: rgb(71, 18, 156);
+    -ms-transform: rotate(170deg); /* IE 9 */
+    transform: rotate(3deg);
+}
+.d4{
+    background-color: rgb(136, 20, 49);
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(-20deg);
+}
+td:hover{
+background-color: rosybrown;
+color: seashell;
+}
+tr{
+    background-image: linear-gradient(to right, red , yellow);
+    text-decoration: none;
+}
+table{
+    text-decoration: none;
+}
+#hover{
+
+display: flex;
+
+}
+.h0{
+    width: 300px;
+    height: 300px;
+    border: 4px solid rosybrown;
+    margin: auto;
+    background-color: skyblue;
+}
+.ho {
+
+    width: 300px;
+    height: 300px;
+    border: 4px solid rosybrown;
+    margin: auto;
+    background-color: skyblue;
+}
+.ho:hover+ .h0{
+    background-color: rgb(0, 0, 0)
+
+}
+.h0:hover+ .ho{
+    background-color: rgb(0, 0, 0)
+}
+.uu{
+    position: relative;
+ top: 10px;
+ left: 300px;
+
 }
